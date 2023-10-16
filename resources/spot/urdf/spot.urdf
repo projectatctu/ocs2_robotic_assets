@@ -2,10 +2,11 @@
 <robot name="spot">
   <link name="base">
     <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/body.dae"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/base.obj"/>
       </geometry>
+      <material name="base"> <color rgba="1 0.8431 0 1"/></material>
     </visual>
     <collision>
       <geometry>
@@ -15,45 +16,21 @@
   </link>
   <link name="base_inertia">
     <inertial>
-      <mass value="16.0"/>
-      <inertia ixx="0.09733333333333333" ixy="0.0" ixz="0.0" iyy="1.0246666666666666" iyz="0.0" izz="1.0449333333333333"/>
+      <origin rpy="0.0 0.0 0.0" xyz="0.006394396536052227 -9.812158532440662e-05 0.0009113792330026627"/>
+      <mass value="32.86"/>
+      <inertia ixx="0.13143999874591827" ixy="0.0" ixz="0.0" iyy="0.13143999874591827" iyz="0.0" izz="0.13143999874591827"/>
     </inertial>
   </link>
-  <joint name="body_inertia_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0 0 0"/>
-    <parent link="base"/>
-    <child link="base_inertia"/>
-  </joint>
-  <link name="battery">
-    <visual>
-      <geometry>
-        <box size="0.324 0.168 0.093"/>
-      </geometry>
-      <material name="spot_color">
-        <color rgba="0.9176470588235294 0.6549019607843137 0 1.0"/>
-      </material>
-    </visual>
-    <collision>
-      <geometry>
-        <box size="0.324 0.168 0.093"/>
-      </geometry>
-    </collision>
-    <inertial>
-      <mass value="4.0"/>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <inertia ixx="0.012291" ixy="0.0" ixz="0.0" iyy="0.037875" iyz="0.0" izz="0.0444"/>
-    </inertial>
-  </link>
-  <joint name="battery_joint" type="fixed">
-    <parent link="base"/>
-    <child link="battery"/>
-    <origin rpy="0 0 0" xyz="0 0 -0.03"/>
+  <joint name="base_inertia_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <parent link="base" />
+    <child link="base_inertia" />
   </joint>
   <link name="fl_hip">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fl_hip.dae"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fl_hip.obj"/>
       </geometry>
     </visual>
     <inertial>
@@ -73,7 +50,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fl_uleg.dae"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fl_uleg.obj"/>
       </geometry>
       <material name="fl_uleg">
         <color rgba="1 0.8431 0 1"/>
@@ -96,7 +73,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fl_lleg.dae"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fl_lleg.obj"/>
       </geometry>
     </visual>
     <collision name="LF_FOOT_collision_sensor">
@@ -128,7 +105,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fr_hip.dae"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fr_hip.obj"/>
       </geometry>
       <material name="fr_hip">
         <color rgba="0.2 0.2 0.2 1"/>
@@ -151,7 +128,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fr_uleg.dae"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fr_uleg.obj"/>
       </geometry>
       <material name="fr_uleg">
         <color rgba="1 0.8431 0 1"/>
@@ -174,7 +151,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fr_lleg.dae"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fr_lleg.obj"/>
       </geometry>
     </visual>
     <collision name="RF_FOOT_collision_sensor">
@@ -206,7 +183,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hl_hip.dae"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hl_hip.obj"/>
       </geometry>
       <material name="hl_hip">
         <color rgba="0.2 0.2 0.2 1"/>
@@ -229,7 +206,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hl_uleg.dae"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hl_uleg.obj"/>
       </geometry>
       <material name="hl_uleg">
         <color rgba="1 0.8431 0 1"/>
@@ -252,7 +229,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hl_lleg.dae"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hl_lleg.obj"/>
       </geometry>
     </visual>
     <collision name="LH_FOOT_collision_sensor">
@@ -284,7 +261,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hr_hip.dae"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hr_hip.obj"/>
       </geometry>
       <material name="hr_hip">
         <color rgba="0.2 0.2 0.2 1"/>
@@ -307,7 +284,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hr_uleg.dae"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hr_uleg.obj"/>
       </geometry>
       <material name="hr_uleg">
         <color rgba="1 0.8431 0 1"/>
@@ -330,7 +307,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hr_lleg.dae"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hr_lleg.obj"/>
       </geometry>
     </visual>
     <collision name="RH_FOOT_collision_sensor">
