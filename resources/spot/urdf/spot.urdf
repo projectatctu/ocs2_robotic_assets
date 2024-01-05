@@ -44,7 +44,7 @@
     <axis xyz="1 0 0"/>
     <parent link="base"/>
     <child link="fl_hip"/>
-    <limit effort="1000" lower="-3.14" upper="3.14" velocity="1000.00"/>
+    <limit effort="80" lower="-0.78539816339744827899" upper="0.78539816339744827899" velocity="7.5"/>
   </joint>
   <link name="fl_uleg">
     <visual>
@@ -67,7 +67,7 @@
     <axis xyz="0 1      0"/>
     <parent link="fl_hip"/>
     <child link="fl_uleg"/>
-    <limit effort="1000" lower="-3.14" upper="3.14" velocity="1000.00"/>
+    <limit effort="80" lower="-0.89884456477707963539" upper="2.2951079663725435509" velocity="7.5"/>
   </joint>
   <link name="fl_lleg">
     <visual>
@@ -93,7 +93,7 @@
     <axis xyz="0 1 0"/>
     <parent link="fl_uleg"/>
     <child link="fl_lleg"/>
-    <limit effort="1000" lower="-3.14" upper="3.14" velocity="1000.00"/>
+    <limit effort="80" lower="-2.7929" upper="-0.254402" velocity="7.5"/>
   </joint>
   <link name="LF_FOOT"/>
   <joint name="LF_FOOT_JOINT" type="fixed">
@@ -122,7 +122,7 @@
     <axis xyz="1 0 0"/>
     <parent link="base"/>
     <child link="fr_hip"/>
-    <limit effort="1000" lower="-3.14" upper="3.14" velocity="1000.00"/>
+    <limit effort="80" lower="-0.78539816339744827899" upper="0.78539816339744827899" velocity="7.5"/>
   </joint>
   <link name="fr_uleg">
     <visual>
@@ -145,7 +145,7 @@
     <axis xyz="0  1      0"/>
     <parent link="fr_hip"/>
     <child link="fr_uleg"/>
-    <limit effort="1000" lower="-3.14" upper="3.14" velocity="1000.00"/>
+    <limit effort="80" lower="-0.89884456477707963539" upper="2.2951079663725435509" velocity="7.5"/>
   </joint>
   <link name="fr_lleg">
     <visual>
@@ -171,7 +171,7 @@
     <axis xyz="0 1 0"/>
     <parent link="fr_uleg"/>
     <child link="fr_lleg"/>
-    <limit effort="1000" lower="-3.14" upper="3.14" velocity="1000.00"/>
+    <limit effort="80" lower="-2.7929" upper="-0.254402" velocity="7.5"/>
   </joint>
   <link name="RF_FOOT"/>
   <joint name="RF_FOOT_JOINT" type="fixed">
@@ -200,7 +200,7 @@
     <axis xyz="1 0 0"/>
     <parent link="base"/>
     <child link="hl_hip"/>
-    <limit effort="1000" lower="-3.14" upper="3.14" velocity="1000.00"/>
+    <limit effort="80" lower="-0.78539816339744827899" upper="0.78539816339744827899" velocity="7.5"/>
   </joint>
   <link name="hl_uleg">
     <visual>
@@ -223,7 +223,7 @@
     <axis xyz="0 1      0"/>
     <parent link="hl_hip"/>
     <child link="hl_uleg"/>
-    <limit effort="1000" lower="-3.14" upper="3.14" velocity="1000.00"/>
+    <limit effort="80" lower="-0.89884456477707963539" upper="2.2951079663725435509" velocity="7.5"/>
   </joint>
   <link name="hl_lleg">
     <visual>
@@ -249,7 +249,7 @@
     <axis xyz="0 1 0"/>
     <parent link="hl_uleg"/>
     <child link="hl_lleg"/>
-    <limit effort="1000" lower="-3.14" upper="3.14" velocity="1000.00"/>
+    <limit effort="80" lower="-2.7929" upper="-0.254402" velocity="7.5"/>
   </joint>
   <link name="LH_FOOT"/>
   <joint name="LH_FOOT_JOINT" type="fixed">
@@ -278,7 +278,7 @@
     <axis xyz="1 0 0"/>
     <parent link="base"/>
     <child link="hr_hip"/>
-    <limit effort="1000" lower="-3.14" upper="3.14" velocity="1000.00"/>
+    <limit effort="80" lower="-0.78539816339744827899" upper="0.78539816339744827899" velocity="7.5"/>
   </joint>
   <link name="hr_uleg">
     <visual>
@@ -301,7 +301,7 @@
     <axis xyz="0  1      0"/>
     <parent link="hr_hip"/>
     <child link="hr_uleg"/>
-    <limit effort="1000" lower="-3.14" upper="3.14" velocity="1000.00"/>
+    <limit effort="80" lower="-0.89884456477707963539" upper="2.2951079663725435509" velocity="7.5"/>
   </joint>
   <link name="hr_lleg">
     <visual>
@@ -327,7 +327,7 @@
     <axis xyz="0 1 0"/>
     <parent link="hr_uleg"/>
     <child link="hr_lleg"/>
-    <limit effort="1000" lower="-3.14" upper="3.14" velocity="1000.00"/>
+    <limit effort="80" lower="-2.7929" upper="-0.254402" velocity="7.5"/>
   </joint>
   <link name="RH_FOOT"/>
   <joint name="RH_FOOT_JOINT" type="fixed">
