@@ -422,7 +422,7 @@
     </inertial>
     </link>
   <joint name="camera_optical_joint_front_right" type="fixed">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0 0 0" rpy="-1.57 0 -1.57"/>
     <parent link="camera_link_front_right"/>
     <child link="camera_optical_front_right"/>
   </joint>
@@ -447,7 +447,7 @@
     </inertial>
     </link>
   <joint name="camera_optical_joint_front_left" type="fixed">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0 0 0" rpy="-1.57 0 -1.57"/>
     <parent link="camera_link_front_left"/>
     <child link="camera_optical_front_left"/>
   </joint>
@@ -464,7 +464,7 @@
   <joint name="camera_joint_right" type="fixed">
       <parent link="base"/>
       <child link="camera_link_right"/>
-      <origin xyz="-0.125 -0.12 0.035" rpy="0 0.2 -1.5707963267948966"/>
+      <origin xyz="-0.125 -0.12 0.035" rpy="3.141592653589793 0.2 -1.5707963267948966"/>
   </joint>
   <link name="camera_link_right">
   <inertial>
@@ -473,7 +473,7 @@
     </inertial>
     </link>
   <joint name="camera_optical_joint_right" type="fixed">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0 0 0" rpy="-1.57 0 -1.57"/>
     <parent link="camera_link_right"/>
     <child link="camera_optical_right"/>
   </joint>
@@ -489,7 +489,7 @@
   <joint name="camera_joint_left" type="fixed">
       <parent link="base"/>
       <child link="camera_link_left"/>
-      <origin xyz="-0.125 0.12 0.035" rpy="0 0.2 1.5707963267948966"/>
+      <origin xyz="-0.125 0.12 0.035" rpy="3.141592653589793 0.2 1.5707963267948966"/>
   </joint>
   <link name="camera_link_left">
   <inertial>
@@ -498,7 +498,7 @@
     </inertial>
     </link>
   <joint name="camera_optical_joint_left" type="fixed">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0 0 0" rpy="-1.57 0 -1.57"/>
     <parent link="camera_link_left"/>
     <child link="camera_optical_left"/>
   </joint>
@@ -523,7 +523,7 @@
     </inertial>
     </link>
   <joint name="camera_optical_joint_back" type="fixed">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0 0 0" rpy="-1.57 0 -1.57"/>
     <parent link="camera_link_back"/>
     <child link="camera_optical_back"/>
   </joint>
