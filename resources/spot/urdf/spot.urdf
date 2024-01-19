@@ -17,8 +17,8 @@
   <link name="base_inertia">
     <inertial>
       <origin rpy="0.0 0.0 0.0" xyz="0.006394396536052227 -9.812158532440662e-05 0.0009113792330026627"/>
-      <mass value="32.86"/>
-      <inertia ixx="0.13143999874591827" ixy="0.0" ixz="0.0" iyy="0.13143999874591827" iyz="0.0" izz="0.13143999874591827"/>
+      <mass value="16.0"/>
+      <inertia ixx="0.10256666666666667" ixy="0.0" ixz="0.0" iyy="1.0296666666666665" iyz="0.0" izz="1.0681666666666667"/>
     </inertial>
   </link>
   <joint name="base_inertia_joint" type="fixed">
@@ -35,8 +35,8 @@
     </visual>
     <inertial>
       <origin rpy="-0.716521349312305 0.02956473059648479 0.03655230014702582" xyz="-0.005374345928430557 0.012841847725212574 9.875232353806496e-05"/>
-      <mass value="1.68"/>
-      <inertia ixx="0.0021147398873455382" ixy="0.0" ixz="0.0" iyy="0.0018129577956607131" iyz="0.0" izz="0.002265435737304666"/>
+      <mass value="2.0"/>
+      <inertia ixx="0.0030083333333333333" ixy="0.0" ixz="0.0" iyy="0.004320833333333334" iyz="0.0" izz="0.004320833333333334"/>
     </inertial>
   </link>
   <joint name="LF_HAA" type="revolute">
@@ -58,8 +58,8 @@
     </visual>
     <inertial>
       <origin rpy="-0.26437828203369795 -0.04853174570753804 0.024046963096353124" xyz="0.005142373498529196 -0.0024323679972440004 -0.12100915610790253"/>
-      <mass value="2.34"/>
-      <inertia ixx="0.02755964961185679" ixy="0.0" ixz="0.0" iyy="0.027354914287651046" iyz="0.0" izz="0.002848145546743553"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01523333333333333" ixy="0.0" ixz="0.0" iyy="0.01523333333333333" iyz="0.0" izz="0.0010666666666666667"/>
     </inertial>
   </link>
   <joint name="LF_HFE" type="revolute">
@@ -84,8 +84,8 @@
     </collision>
     <inertial>
       <origin rpy="-0.007266925694167092 -0.009591807116834161 0.00035255970529224356" xyz="0.00225794012658298 4.607596201822162e-05 -0.1800822913646698"/>
-      <mass value="0.35"/>
-      <inertia ixx="0.003999022654901177" ixy="0.0" ixz="0.0" iyy="0.0040503157598010785" iyz="0.0" izz="0.0001493402097647426"/>
+      <mass value="0.5"/>
+      <inertia ixx="0.007416666666666665" ixy="0.0" ixz="0.0" iyy="0.007416666666666665" iyz="0.0" izz="0.00013333333333333334"/>
     </inertial>
   </link>
   <joint name="LF_KFE" type="revolute">
@@ -113,8 +113,8 @@
     </visual>
     <inertial>
       <origin rpy="0.7165213493123055 -0.02956473059648479 0.03655230014702582" xyz="-0.005374345928430557 -0.012841847725212574 -9.875232353806496e-05"/>
-      <mass value="1.68"/>
-      <inertia ixx="0.0021147398873455382" ixy="0.0" ixz="0.0" iyy="0.0018129577956607131" iyz="0.0" izz="0.002265435737304666"/>
+      <mass value="2.0"/>
+      <inertia ixx="0.0030083333333333333" ixy="0.0" ixz="0.0" iyy="0.004320833333333334" iyz="0.0" izz="0.004320833333333334"/>
     </inertial>
   </link>
   <joint name="RF_HAA" type="revolute">
@@ -136,8 +136,8 @@
     </visual>
     <inertial>
       <origin rpy="0.2643905306958363 -0.04853174688302708 -0.024046943559834943" xyz="0.005142373498529196 0.0024323677644133568 -0.12100915610790253"/>
-      <mass value="2.34"/>
-      <inertia ixx="0.02755964678927691" ixy="0.0" ixz="0.0" iyy="0.02735491706466737" iyz="0.0" izz="0.0028481453594764797"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01523333333333333" ixy="0.0" ixz="0.0" iyy="0.01523333333333333" iyz="0.0" izz="0.0010666666666666667"/>
     </inertial>
   </link>
   <joint name="RF_HFE" type="revolute">
@@ -162,8 +162,8 @@
     </collision>
     <inertial>
       <origin rpy="-0.007266925694167092 -0.009591807116834161 0.00035255970529224356" xyz="0.00225794012658298 4.607596201822162e-05 -0.1800822913646698"/>
-      <mass value="0.35"/>
-      <inertia ixx="0.003999022654901177" ixy="0.0" ixz="0.0" iyy="0.0040503157598010785" iyz="0.0" izz="0.0001493402097647426"/>
+      <mass value="0.5"/>
+      <inertia ixx="0.007416666666666665" ixy="0.0" ixz="0.0" iyy="0.007416666666666665" iyz="0.0" izz="0.00013333333333333334"/>
     </inertial>
   </link>
   <joint name="RF_KFE" type="revolute">
@@ -191,8 +191,8 @@
     </visual>
     <inertial>
       <origin rpy="0.7165213493123055 0.02956473059648479 -0.03655230014702582" xyz="0.005374345928430557 0.012841847725212574 -9.875232353806496e-05"/>
-      <mass value="1.68"/>
-      <inertia ixx="0.0021147398873455382" ixy="0.0" ixz="0.0" iyy="0.0018129577956607131" iyz="0.0" izz="0.002265435737304666"/>
+      <mass value="2.0"/>
+      <inertia ixx="0.0030083333333333333" ixy="0.0" ixz="0.0" iyy="0.004320833333333334" iyz="0.0" izz="0.004320833333333334"/>
     </inertial>
   </link>
   <joint name="LH_HAA" type="revolute">
@@ -214,8 +214,8 @@
     </visual>
     <inertial>
       <origin rpy="-0.26437828203369795 -0.04853174570753804 0.024046963096353124" xyz="0.005142373498529196 -0.0024323679972440004 -0.12100915610790253"/>
-      <mass value="2.34"/>
-      <inertia ixx="0.02755964961185679" ixy="0.0" ixz="0.0" iyy="0.027354914287651046" iyz="0.0" izz="0.002848145546743553"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01523333333333333" ixy="0.0" ixz="0.0" iyy="0.01523333333333333" iyz="0.0" izz="0.0010666666666666667"/>
     </inertial>
   </link>
   <joint name="LH_HFE" type="revolute">
@@ -240,8 +240,8 @@
     </collision>
     <inertial>
       <origin rpy="-0.007266925694167092 -0.009591807116834161 0.00035255970529224356" xyz="0.00225794012658298 4.607596201822162e-05 -0.1800822913646698"/>
-      <mass value="0.35"/>
-      <inertia ixx="0.003999022654901177" ixy="0.0" ixz="0.0" iyy="0.0040503157598010785" iyz="0.0" izz="0.0001493402097647426"/>
+      <mass value="0.5"/>
+      <inertia ixx="0.007416666666666665" ixy="0.0" ixz="0.0" iyy="0.007416666666666665" iyz="0.0" izz="0.00013333333333333334"/>
     </inertial>
   </link>
   <joint name="LH_KFE" type="revolute">
@@ -269,8 +269,8 @@
     </visual>
     <inertial>
       <origin rpy="-0.716521349312305 -0.02956473059648479 -0.03655230014702582" xyz="0.005374345928430557 -0.012841847725212574 9.875232353806496e-05"/>
-      <mass value="1.68"/>
-      <inertia ixx="0.0021147398873455382" ixy="0.0" ixz="0.0" iyy="0.0018129577956607131" iyz="0.0" izz="0.002265435737304666"/>
+      <mass value="2.0"/>
+      <inertia ixx="0.0030083333333333333" ixy="0.0" ixz="0.0" iyy="0.004320833333333334" iyz="0.0" izz="0.004320833333333334"/>
     </inertial>
   </link>
   <joint name="RH_HAA" type="revolute">
@@ -292,8 +292,8 @@
     </visual>
     <inertial>
       <origin rpy="0.2643905306958363 -0.04853174688302708 -0.024046943559834943" xyz="0.005142373498529196 0.0024323677644133568 -0.12100915610790253"/>
-      <mass value="2.34"/>
-      <inertia ixx="0.02755964678927691" ixy="0.0" ixz="0.0" iyy="0.02735491706466737" iyz="0.0" izz="0.0028481453594764797"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01523333333333333" ixy="0.0" ixz="0.0" iyy="0.01523333333333333" iyz="0.0" izz="0.0010666666666666667"/>
     </inertial>
   </link>
   <joint name="RH_HFE" type="revolute">
@@ -318,8 +318,8 @@
     </collision>
     <inertial>
       <origin rpy="-0.007266925694167092 -0.009591807116834161 0.00035255970529224356" xyz="0.00225794012658298 4.607596201822162e-05 -0.1800822913646698"/>
-      <mass value="0.35"/>
-      <inertia ixx="0.003999022654901177" ixy="0.0" ixz="0.0" iyy="0.0040503157598010785" iyz="0.0" izz="0.0001493402097647426"/>
+      <mass value="0.5"/>
+      <inertia ixx="0.007416666666666665" ixy="0.0" ixz="0.0" iyy="0.007416666666666665" iyz="0.0" izz="0.00013333333333333334"/>
     </inertial>
   </link>
   <joint name="RH_KFE" type="revolute">
@@ -342,12 +342,150 @@
       <child link="camera_link"/>
       <origin rpy="0 0 0" xyz="0.42 0 0"/>
   </joint>
-  <link name="camera_link"/>
+  <link name="camera_link">
+  <inertial>
+      <mass value="1e-5"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+    </link>
   <joint name="camera_optical_joint" type="fixed">
     <origin xyz="0 0 0" rpy="-1.57 0 -1.57"/>
     <parent link="camera_link"/>
     <child link="camera_optical"/>
   </joint>
-  <link name="camera_optical"/>
+  <link name="camera_optical">
+  <inertial>
+      <mass value="1e-5"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+
+  <!-- Camera - front right -->
+
+  <joint name="camera_joint_front_right" type="fixed">
+      <parent link="base"/>
+      <child link="camera_link_front_right"/>
+      <origin xyz="0.415 -0.037 -0.01" rpy="-1.355558 0.353917 0.554196"/>
+  </joint>
+  <link name="camera_link_front_right">
+  <inertial>
+    <mass value="1e-5"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+    </link>
+  <joint name="camera_optical_joint_front_right" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="camera_link_front_right"/>
+    <child link="camera_optical_front_right"/>
+  </joint>
+  <link name="camera_optical_front_right">
+  <inertial>
+      <mass value="1e-5"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+
+  <!-- Camera - front left -->
+
+  <joint name="camera_joint_front_left" type="fixed">
+      <parent link="base"/>
+      <child link="camera_link_front_left"/>
+      <origin xyz="0.415 0.037 -0.01" rpy="1.355558 0.353917 -0.554196"/>
+  </joint>
+  <link name="camera_link_front_left">
+  <inertial>
+    <mass value="1e-5"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+    </link>
+  <joint name="camera_optical_joint_front_left" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="camera_link_front_left"/>
+    <child link="camera_optical_front_left"/>
+  </joint>
+  <link name="camera_optical_front_left">
+  <inertial>
+      <mass value="1e-5"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+
+
+  <!-- Camera - right -->
+
+  <joint name="camera_joint_right" type="fixed">
+      <parent link="base"/>
+      <child link="camera_link_right"/>
+      <origin xyz="-0.125 -0.12 0.035" rpy="0 0.2 -1.5707963267948966"/>
+  </joint>
+  <link name="camera_link_right">
+  <inertial>
+    <mass value="1e-5"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+    </link>
+  <joint name="camera_optical_joint_right" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="camera_link_right"/>
+    <child link="camera_optical_right"/>
+  </joint>
+  <link name="camera_optical_right">
+  <inertial>
+      <mass value="1e-5"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+
+  <!-- Camera - left -->
+
+  <joint name="camera_joint_left" type="fixed">
+      <parent link="base"/>
+      <child link="camera_link_left"/>
+      <origin xyz="-0.125 0.12 0.035" rpy="0 0.2 1.5707963267948966"/>
+  </joint>
+  <link name="camera_link_left">
+  <inertial>
+    <mass value="1e-5"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+    </link>
+  <joint name="camera_optical_joint_left" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="camera_link_left"/>
+    <child link="camera_optical_left"/>
+  </joint>
+  <link name="camera_optical_left">
+  <inertial>
+      <mass value="1e-5"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+
+  <!-- Camera - back -->
+
+  <joint name="camera_joint_back" type="fixed">
+      <parent link="base"/>
+      <child link="camera_link_back"/>
+      <origin xyz="-0.425 0 0.01" rpy="0 0.3 -3.141592653589793"/>
+  </joint>
+  <link name="camera_link_back">
+  <inertial>
+    <mass value="1e-5"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+    </link>
+  <joint name="camera_optical_joint_back" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="camera_link_back"/>
+    <child link="camera_optical_back"/>
+  </joint>
+  <link name="camera_optical_back">
+  <inertial>
+      <mass value="1e-5"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+
+
 
 </robot>
