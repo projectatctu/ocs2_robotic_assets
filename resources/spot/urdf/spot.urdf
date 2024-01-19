@@ -4,7 +4,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/base.obj"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/body.dae"/>
       </geometry>
       <material name="base"> <color rgba="1 0.8431 0 1"/></material>
     </visual>
@@ -30,7 +30,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fl_hip.obj"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/fl_hip.dae"/>
       </geometry>
     </visual>
     <inertial>
@@ -47,10 +47,16 @@
     <limit effort="80" lower="-0.78539816339744827899" upper="0.78539816339744827899" velocity="7.5"/>
   </joint>
   <link name="fl_uleg">
+  <collision>
+      <origin rpy="0 0 0" xyz="-0.0 0 -0.15"/>
+      <geometry>
+        <cylinder length="0.3" radius="0.05"/>
+      </geometry>
+    </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fl_uleg.obj"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/fl_uleg.dae"/>
       </geometry>
       <material name="fl_uleg">
         <color rgba="1 0.8431 0 1"/>
@@ -70,10 +76,16 @@
     <limit effort="80" lower="-0.89884456477707963539" upper="2.2951079663725435509" velocity="7.5"/>
   </joint>
   <link name="fl_lleg">
+  <collision>
+      <origin rpy="0 0 0" xyz="-0.0 0 -0.155"/>
+      <geometry>
+        <cylinder length="0.30" radius="0.03"/>
+      </geometry>
+    </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fl_lleg.obj"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/fl_lleg.dae"/>
       </geometry>
     </visual>
     <collision name="LF_FOOT_collision_sensor">
@@ -105,7 +117,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fr_hip.obj"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/fr_hip.dae"/>
       </geometry>
       <material name="fr_hip">
         <color rgba="0.2 0.2 0.2 1"/>
@@ -125,10 +137,16 @@
     <limit effort="80" lower="-0.78539816339744827899" upper="0.78539816339744827899" velocity="7.5"/>
   </joint>
   <link name="fr_uleg">
+  <collision>
+      <origin rpy="0 0 0" xyz="-0.0 0 -0.15"/>
+      <geometry>
+        <cylinder length="0.3" radius="0.05"/>
+      </geometry>
+    </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fr_uleg.obj"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/fr_uleg.dae"/>
       </geometry>
       <material name="fr_uleg">
         <color rgba="1 0.8431 0 1"/>
@@ -148,10 +166,16 @@
     <limit effort="80" lower="-0.89884456477707963539" upper="2.2951079663725435509" velocity="7.5"/>
   </joint>
   <link name="fr_lleg">
+  <collision>
+      <origin rpy="0 0 0" xyz="-0.0 0 -0.155"/>
+      <geometry>
+        <cylinder length="0.30" radius="0.03"/>
+      </geometry>
+    </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/fr_lleg.obj"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/fr_lleg.dae"/>
       </geometry>
     </visual>
     <collision name="RF_FOOT_collision_sensor">
@@ -183,7 +207,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hl_hip.obj"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/hl_hip.dae"/>
       </geometry>
       <material name="hl_hip">
         <color rgba="0.2 0.2 0.2 1"/>
@@ -203,10 +227,16 @@
     <limit effort="80" lower="-0.78539816339744827899" upper="0.78539816339744827899" velocity="7.5"/>
   </joint>
   <link name="hl_uleg">
+  <collision>
+      <origin rpy="0 0 0" xyz="-0.0 0 -0.15"/>
+      <geometry>
+        <cylinder length="0.3" radius="0.05"/>
+      </geometry>
+    </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hl_uleg.obj"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/hl_uleg.dae"/>
       </geometry>
       <material name="hl_uleg">
         <color rgba="1 0.8431 0 1"/>
@@ -226,10 +256,16 @@
     <limit effort="80" lower="-0.89884456477707963539" upper="2.2951079663725435509" velocity="7.5"/>
   </joint>
   <link name="hl_lleg">
+  <collision>
+      <origin rpy="0 0 0" xyz="-0.0 0 -0.155"/>
+      <geometry>
+        <cylinder length="0.30" radius="0.03"/>
+      </geometry>
+    </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hl_lleg.obj"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/hl_lleg.dae"/>
       </geometry>
     </visual>
     <collision name="LH_FOOT_collision_sensor">
@@ -261,7 +297,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hr_hip.obj"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/hr_hip.dae"/>
       </geometry>
       <material name="hr_hip">
         <color rgba="0.2 0.2 0.2 1"/>
@@ -281,10 +317,16 @@
     <limit effort="80" lower="-0.78539816339744827899" upper="0.78539816339744827899" velocity="7.5"/>
   </joint>
   <link name="hr_uleg">
+  <collision>
+      <origin rpy="0 0 0" xyz="-0.0 0 -0.15"/>
+      <geometry>
+        <cylinder length="0.3" radius="0.05"/>
+      </geometry>
+    </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hr_uleg.obj"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/hr_uleg.dae"/>
       </geometry>
       <material name="hr_uleg">
         <color rgba="1 0.8431 0 1"/>
@@ -304,10 +346,16 @@
     <limit effort="80" lower="-0.89884456477707963539" upper="2.2951079663725435509" velocity="7.5"/>
   </joint>
   <link name="hr_lleg">
+  <collision>
+      <origin rpy="0 0 0" xyz="-0.0 0 -0.155"/>
+      <geometry>
+        <cylinder length="0.30" radius="0.03"/>
+      </geometry>
+    </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/hr_lleg.obj"/>
+        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/hr_lleg.dae"/>
       </geometry>
     </visual>
     <collision name="RH_FOOT_collision_sensor">
