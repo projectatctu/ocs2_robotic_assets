@@ -18,7 +18,7 @@
     <inertial>
       <origin rpy="0.0 0.0 0.0" xyz="0.006394396536052227 -9.812158532440662e-05 0.0009113792330026627"/>
       <mass value="16.0"/>
-      <inertia ixx="0.10256666666666667" ixy="0.0" ixz="0.0" iyy="1.0296666666666665" iyz="0.0" izz="1.0681666666666667"/>
+      <inertia ixx="0.017938806" ixy="0.00387963" ixz="0.001500772" iyy="0.370887745" iyz="6.8963e-05" izz="0.372497653"/>
     </inertial>
   </link>
   <joint name="base_inertia_joint" type="fixed">

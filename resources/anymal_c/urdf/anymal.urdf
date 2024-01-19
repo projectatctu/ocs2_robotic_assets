@@ -831,7 +831,7 @@
             </geometry>
         </collision>
         <!-- Foot collision -->
-        <collision>
+        <collision name="LF_FOOT_collision_sensor">
             <origin xyz="0 0 0.0225"/>
             <geometry>
                 <sphere radius="0.03"/>
@@ -1075,7 +1075,7 @@
             </geometry>
         </collision>
         <!-- Foot collision -->
-        <collision>
+        <collision name="RF_FOOT_collision_sensor">
             <origin xyz="0 0 0.0225"/>
             <geometry>
                 <sphere radius="0.03"/>
@@ -1319,7 +1319,7 @@
             </geometry>
         </collision>
         <!-- Foot collision -->
-        <collision>
+        <collision name="LH_FOOT_collision_sensor">
             <origin xyz="0 0 0.0225"/>
             <geometry>
                 <sphere radius="0.03"/>
@@ -1563,7 +1563,7 @@
             </geometry>
         </collision>
         <!-- Foot collision -->
-        <collision>
+        <collision name="RH_FOOT_collision_sensor">
             <origin xyz="0 0 0.0225"/>
             <geometry>
                 <sphere radius="0.03"/>
