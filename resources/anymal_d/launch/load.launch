@@ -5,7 +5,7 @@
   <!-- Give the robot description parameter a name -->
   <arg name="description_name"           default="anymal_description"/>
   <!-- Set robot description path -->
-  <arg name="description_file"           default="$(find anymal_d_simple_description)/urdf/anymal.urdf"/>
+  <arg name="description_file"           default="$(find ocs2_robotic_assets)/resources/anymal_d/urdf/anymal.urdf"/>
 
 
   <!-- Run xacro script to generate ANYmal description -->

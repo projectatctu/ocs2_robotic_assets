@@ -5,12 +5,12 @@
   <!-- Name of the robot description parameter -->
   <arg name="description_name"         default="anymal_description"/>
   <!-- Set robot description path -->
-  <arg name="description_file"         default="$(find anymal_d_simple_description)/urdf/anymal.urdf"/>
+  <arg name="description_file"         default="$(find ocs2_robotic_assets)/resources/anymal_d/urdf/anymal.urdf"/>
   <!-- Joint state topic name -->
   <arg name="joint_states_topic"       default="/joint_states"/>
 
   <!-- Load robot description -->
-  <include file="$(find anymal_d_simple_description)/launch/load.launch">
+  <include file="$(find ocs2_robotic_assets)/resources/anymal_d/launch/load.launch">
     <arg name="description_name" value="$(arg description_name)"/>
     <arg name="description_file" value="$(arg description_file)"/>
   </include>
@@ -33,7 +33,7 @@
 
   <!-- RViz -->
   <node name="rviz" pkg="rviz" type="rviz"
-        args="-d $(find anymal_d_simple_description)/config/rviz/standalone.rviz"
+        args="-d $(find ocs2_robotic_assets)/resources/anymal_d/config/rviz/standalone.rviz"
         output="screen"/>
 
 </launch>
