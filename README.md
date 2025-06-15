@@ -28,3 +28,4 @@ in [`docs/MobileManipulatorUrdfAssets.md`](docs/MobileManipulatorUrdfAssets.md).
 | [__PR2__](resources/mobile_manipulator/pr2) |  The PR2 robot (omni-directional base).  | [Link](https://ieeexplore.ieee.org/document/5980058) | [BSD-3](http://wiki.ros.org/pr2_description) |
 | [__Quadrotor__](resources/quadrotor) |  An ideal quadrotor with its dynamics model.  | - | - |
 | [__Spot__](resources/spot) | Quadrupedal robot developed by Boston Dynamics | [Link](https://bostondynamics.com/) | - |
+| [__Go2__](resources/go2) | Quadrupedal robot developed by Unitree Robotics | [Link](https://www.unitree.com/) | - |
