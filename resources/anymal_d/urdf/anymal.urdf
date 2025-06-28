@@ -675,7 +675,7 @@
         <cylinder length="0.39572" radius="0.0175"/>
       </geometry>
     </collision>
-        <collision>
+        <collision name="LF_FOOT_collision_sensor">
       <origin xyz="0 -0.008141153063699788 0.03038319686592264"/>
       <geometry>
         <sphere radius="0.031455"/>
@@ -912,7 +912,7 @@
         <cylinder length="0.39572" radius="0.0175"/>
       </geometry>
     </collision>
-        <collision>
+        <collision name="RF_FOOT_collision_sensor">
       <origin xyz="0 0.008141153063699788 0.03038319686592264"/>
       <geometry>
         <sphere radius="0.031455"/>
@@ -1149,7 +1149,7 @@
         <cylinder length="0.39572" radius="0.0175"/>
       </geometry>
     </collision>
-        <collision>
+        <collision name="LH_FOOT_collision_sensor">
       <origin xyz="0 -0.008141153063699788 0.03038319686592264"/>
       <geometry>
         <sphere radius="0.031455"/>
@@ -1386,7 +1386,7 @@
         <cylinder length="0.39572" radius="0.0175"/>
       </geometry>
     </collision>
-        <collision>
+        <collision name="RH_FOOT_collision_sensor">
       <origin xyz="0 0.008141153063699788 0.03038319686592264"/>
       <geometry>
         <sphere radius="0.031455"/>

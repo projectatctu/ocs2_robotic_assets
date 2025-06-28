@@ -393,7 +393,7 @@ Stephen Brawner (brawner@gmail.com)
           rgba="1 1 1 1" />
       </material>
     </visual>
-    <collision>
+    <collision name="LF_FOOT_collision_sensor">
       <origin rpy="0 0 0" xyz="-0.002 0 0" />
       <geometry>
         <sphere radius="0.022" />
@@ -688,7 +688,7 @@ Stephen Brawner (brawner@gmail.com)
           rgba="1 1 1 1" />
       </material>
     </visual>
-    <collision>
+    <collision name="LH_FOOT_collision_sensor">
       <origin rpy="0 0 0" xyz="-0.002 0 0" />
       <geometry>
         <sphere radius="0.022" />
@@ -983,7 +983,7 @@ Stephen Brawner (brawner@gmail.com)
           rgba="1 1 1 1" />
       </material>
     </visual>
-    <collision>
+    <collision name="RF_FOOT_collision_sensor">
       <origin rpy="0 0 0" xyz="-0.002 0 0" />
       <geometry>
         <sphere radius="0.022" />
@@ -1278,7 +1278,7 @@ Stephen Brawner (brawner@gmail.com)
           rgba="1 1 1 1" />
       </material>
     </visual>
-    <collision>
+    <collision name="RH_FOOT_collision_sensor">
       <origin rpy="0 0 0" xyz="-0.002 0 0" />
       <geometry>
         <sphere radius="0.022" />
